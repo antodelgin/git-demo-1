@@ -112,9 +112,18 @@ Let me know if you want a visual diagram or live demo to help solidify this!
 
 
 
+<<<<<<< HEAD
 java 
 java
 java
+=======
+javascript
+javascript
+javascript
+javascript
+
+
+>>>>>>> 18c4e71 (my changes)
 
 
 
