@@ -1,4 +1,7 @@
-Yes, exactly! yarrrrrr
+Javvavavavavavavavavavavav
+
+
+Yes, exactly!
 
 create-react-app (CRA) - is a tool that **quickly sets up a simple React application** with all the necessary configuration—so you don’t have to worry about Webpack, Babel, or other build tools.
 
@@ -104,19 +107,6 @@ Let me know if you want a visual diagram or live demo to help solidify this!
 
 
 
-
-
-Hello Java
-Hello JavaScript
-Hello JavaScript
-Hello JavaScript
-Hello JavaScript
-Hello JavaScript
-Hello Java
-Hello Java
-Hello Java
-Hello Java
-Hello Java
 
 
 
