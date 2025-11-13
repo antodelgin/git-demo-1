@@ -1,0 +1,130 @@
+Yes, exactly! yarrrrrr
+
+create-react-app (CRA) - is a tool that **quickly sets up a simple React application** with all the necessary configuration—so you don’t have to worry about Webpack, Babel, or other build tools.
+
+It creates a basic, ready-to-run React project with:
+
+* React and ReactDOM libraries
+* A simple starting app (`App.js`)
+* Development server with hot reload
+* Build scripts to create production-ready code
+
+So yes, CRA will create a simple React app for you, perfect to start learning or building on!
+
+
+
+1. package.json	- The dependencies are in package.json and are added automatically from npm repository.
+
+.render	  - pass HTML
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
+
+2. <App> - is a component, a function returns HTML+JS(JSX), (it's not a tag)
+
+3. A page can have multiple components, and we can make each work independently.
+
+4. index.html -> index.js -> App component [App.js]
+
+5. import React from 'react';
+   import ReactDOM from 'react-dom/client';
+   ==
+
+
+
+
+6. Boolean value cannot be displayed direct as true/false in browser screen
+
+7. Cannot display Object direct on browser (Objects are not valid as a React
+child)
+function App() {
+  const name = {age:30}
+  return (
+    <div className="App">
+      <p>{name}</p>
+    </div>
+  );
+}
+
+'name' is an Object so wont work,
+'name.age' will work
+
+
+8. Math.random()   - generate random number between 0 - 1
+   Math.floor(0.6) - 0, (1.4) - 1
+   Math.ceil(0.6)  - 1, (1.4) - 2
+
+9. Components name should be in capital letter
+
+10. cltrl+r -> rafce (creates a React Arrow Function Component with ES7 module system) (add extension - ES7+ React/Redux/React-Native snippets)
+
+11. Ctrl + Shift + P → search and run Reload Window
+
+12. Can export and import functions from other components to App components
+
+13. What is a "function reference"?
+
+A function reference is just a function that you *give* to something (like a button), so it can call it later, not immediately.
+
+For example:
+
+function sayHello() {
+  alert("Hello!");
+}
+
+<button onClick={sayHello}>Click Me</button>
+
+Here, `sayHello` is a *reference to the function*. It’s not being called right away. The browser will call it *when the button is clicked*.
+
+
+Why is this a reference?
+
+<button onClick={() => addItem("John")}>Add</button>
+
+In this case, you're doing this:
+
+onClick = () => addItem("John");
+
+You are passing a **new function** (an arrow function) to `onClick`. That arrow function is just like any other function reference. It won’t run until the button is clicked.
+
+
+### ✅ In summary:
+
+* A **function reference** is just a function that you pass around to be called later.
+* `() => addItem("John")` is an arrow function — you're creating it on the spot and passing it as a reference.
+* React calls it **when the event happens**, not during render.
+
+Let me know if you want a visual diagram or live demo to help solidify this!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
